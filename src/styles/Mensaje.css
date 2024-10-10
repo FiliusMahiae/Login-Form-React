@@ -1,0 +1,26 @@
+.mensaje {
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 400px;
+    background: #e6f7ff;
+    border: 1px solid #91d5ff;
+    color: #0050b3;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    display: none;
+}
+
+.mensaje.error {
+    display: block;
+    background: #fff1f0;
+    border-color: #ffa39e;
+    color: #cf1322;
+}
+
+.mensaje.success {
+    display: block;
+    background: #f6ffed;
+    border-color: #b7eb8f;
+    color: #389e0d;
+}
